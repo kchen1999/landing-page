@@ -12,6 +12,38 @@ body {
     flex: 1 1 0px;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtext-font {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
 .info {
     background-color: white;
     flex: 1 1 0px;
