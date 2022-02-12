@@ -22,7 +22,7 @@ li {
 }
 
 img {
-    width: 20%;
+    width: 10%;
     height: auto;
 }
 
@@ -39,10 +39,15 @@ img {
 }
 
 .awesome {
+    display: flex;
+}
+
+.title-side {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
+
 
 .info {
     background-color: white;
