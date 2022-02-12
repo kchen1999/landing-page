@@ -1,0 +1,17 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+} 
+
+.info {
+    background-color: white;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.sign-up {
+    background-color: white;
+}
