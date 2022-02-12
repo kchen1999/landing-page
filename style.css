@@ -31,8 +31,10 @@ body {
 }
 
 
-.call-action {
+.container {
     background-color: #2882F6;
+    padding: 20px 30px;
+    margin: auto;
 }
 
 .footer {
