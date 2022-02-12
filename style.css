@@ -1,17 +1,41 @@
 body { 
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: white;
+    min-height: 100vh;
+    margin: 0;
 } 
+
+.header {
+    color: white;
+    background-color: #1F2937;
+    flex: 1 1 0px;
+}
 
 .info {
     background-color: white;
+    flex: 1 1 0px;
 }
 
 .quote {
     background-color: #e5e7eb;
+    flex: 1 1 0px;
 }
 
-.sign-up {
+.bottom {
     background-color: white;
+    flex: 1 1 0px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.call-action {
+    background-color: #2882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
 }
