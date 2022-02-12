@@ -6,7 +6,7 @@ body {
     margin: 0;
 } 
 
-.header {
+.top {
     color: white;
     background-color: #1F2937;
     flex: 1 1 0px;
@@ -30,7 +30,6 @@ body {
     justify-content: space-between;
 }
 
-
 .container {
     background-color: #2882F6;
     padding: 20px 30px;
@@ -40,4 +39,5 @@ body {
 .footer {
     background-color: #1F2937;
     color: white;
+    text-align: center;
 }
