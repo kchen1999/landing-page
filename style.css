@@ -92,13 +92,24 @@ button {
 }
 
 .random-img {
-    font-size: 10px;  
-    color: #E5E7EB; 
-    width: 100px;  
+    width: 140px; 
+    height: 100px;
+    border-radius: 8px; 
 }
 
 .images-row {
     display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image-text {
+    width: 140px;
+}
+
+.image-text .subtext-font {
+    color: black;
+    text-align: center;
 }
 
 .sign-up {
