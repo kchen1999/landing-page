@@ -11,8 +11,8 @@ body {
     color: white;
     background-color: #1F2937;
     flex: 1 1 0px;
-    padding-left: 240px; 
-    padding-right: 240px; 
+    padding-left: 600px; 
+    padding-right: 600px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -127,7 +127,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 375px;
+    padding: 0px 640px;
 }
 
 .quote {
