@@ -11,7 +11,11 @@ body {
     color: white;
     background-color: #1F2937;
     flex: 1 1 0px;
-    padding: 10px 240px 40px; 
+    padding-left: 240px; 
+    padding-right: 240px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -22,12 +26,12 @@ ul {
 
 li {
     display: inline;
-    padding-left: 12px; ;
+    padding-left: 12px; 
 }
 
-img {
-    width: 10%;
-    height: auto;
+.shanghai-img {
+    width: 360px;
+    height: 110.25px;
 }
 
 .header {
@@ -35,26 +39,42 @@ img {
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-top: 8px;
+}
+
+p {
+    margin: 0;
 }
 
 .subtext-font {
     font-size: 10px;
     color: #E5E7EB;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .awesome {
     display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .title-side {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bolder;
     color: #F9FAF8;
-    padding-right: 45px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex: 1 1 0px; 
+}
+
+.image-side {
+    flex: 1 1 0px; 
+    display: flex;
+    justify-content: flex-end;
 }
 
 button {
