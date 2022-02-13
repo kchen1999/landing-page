@@ -29,6 +29,10 @@ li {
     padding-left: 12px; 
 }
 
+h2 {
+    text-align: center;
+}
+
 .shanghai-img {
     width: 360px;
     height: 110.25px;
@@ -85,6 +89,16 @@ button {
     border: transparent;
     padding: 4px 16px;
     font-size: 10px;
+}
+
+.random-img {
+    font-size: 10px;  
+    color: #E5E7EB; 
+    width: 100px;  
+}
+
+.images-row {
+    display: flex;
 }
 
 .sign-up {
