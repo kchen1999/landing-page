@@ -108,7 +108,7 @@ button {
 }
 
 .image-text .subtext-font {
-    color: black;
+    color: #1F2937;;
     text-align: center;
 }
 
@@ -121,9 +121,27 @@ button {
     flex: 1 1 0px;
 }
 
-.quote {
+.middle {
     background-color: #e5e7eb;
     flex: 1 1 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 375px;
+}
+
+.quote {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+h6 {
+    margin: 0;
+    font-style: normal;
+    text-align: right;
+    margin-right: 36px;
 }
 
 .bottom {
